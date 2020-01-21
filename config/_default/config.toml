@@ -1,0 +1,12 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "A Page Just About Schema"
+
+[permalinks]
+  posts = "/:filename/"
+
+[params]
+og_type = "website"
+schema_type = "WebPage"
+MainTitle = "A Little Schema Project"
+FooterText = "Jack O'Brien  |   Pardus Eidolon"

@@ -1,0 +1,20 @@
+{{ define "main" }}
+
+<div id="Inner">
+    <h1>{{ .Title }}</h1>
+    <h4>{{ .Description }}</h4>
+    <hr>
+    <div id="content">
+        <div class="boxed">
+                    {{ .Content }}
+            </div>
+        </div>
+    </div>
+
+    <hr id="footerline">
+    <div class="boxed">
+        <h6>{{ $.Site.Params.FooterText }}</h6>
+    </div>
+</div>
+
+{{ end }}

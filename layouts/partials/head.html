@@ -1,0 +1,18 @@
+<head>
+    <html itemscope itemtype="http://schema.org/{{ $.Param "schema_type"}}"
+        lang="{{ $.Site.LanguageCode | default "en" }}" prefix="og: http://ogp.me/ns#">
+
+    </html>
+    <meta itemprop="name" content="{{.Title}}">
+    <meta itemprop="description" content="{{.Description}}">
+    <meta itemprop="dateCreated" content="{{ dateFormat "02nd January 06th 03:04PM MST" .Date.Local }}">    
+
+
+    {{ $css := "css/bootstrap.min.css" | absURL }}
+    <link rel="stylesheet" href="{{ $css }}">
+    {{ $css := "css/tachyons.min.css" | absURL }}
+    <link rel="stylesheet" href="{{ $css }}">
+
+    <title>Schema</title>
+    {{ partial "style.html" . }}
+</head>

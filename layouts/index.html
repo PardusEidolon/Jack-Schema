@@ -1,0 +1,23 @@
+{{ define "main" }}
+
+<div id="Inner">
+    <h1>{{ $.Site.Params.MainTitle }}</h1>
+    <h4> Jack tries to Schema.</h4>
+    <h5>"I dont know how to schema." ~ Jack </h5>
+    <hr>
+    <div id="content">
+        <div class="boxed">
+            <div class="main_content">
+                <main id="main">
+                    {{ .Content }}
+            </div>
+        </div>
+    </div>
+
+    <hr>
+    <div class="boxed">
+        <h6>{{ $.Site.Params.FooterText }}</h6>
+    </div>
+</div>
+
+{{ end }}
