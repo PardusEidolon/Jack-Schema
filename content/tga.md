@@ -1,6 +1,10 @@
 ---
 title: "Start up Weekend 2014"
-description: Venture Centres First Startup
+description: Venture Centres First Startup at the Basesation
+author:
+  given_name: Jack
+  family_name: OBrien
+  display_name: Jack OBrien
 date: 2020-01-21T09:41:37+13:00
 draft: true
 ---
