@@ -22,5 +22,5 @@ draft: true
 {{< youtube id="mwp6VJwxGzw" >}}
 
 <div class="alert alert-danger" role="alert">
-  THIS IS JUST A PLACE HOLDER
+  THIS IS JUST A PLACE HOLDER!
 </div>
