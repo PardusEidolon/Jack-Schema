@@ -6,7 +6,7 @@ author:
   family_name: OBrien
   display_name: Jack OBrien
 date: 2020-01-21T09:41:37+13:00
-keywords: ["#Hendy", "#Economics"] 
+keywords: ["#Hendy", "#Economics", "Opening Event" ] 
 draft: true
 ---
 {{< card_img >}}
