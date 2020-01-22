@@ -2,6 +2,7 @@
 title: "Home"
 description: The main body text for the home landing page
 date: 2020-01-20T15:20:27+13:00
+keywords: ["#about, #introduction"]
 draft: true
 ---
 

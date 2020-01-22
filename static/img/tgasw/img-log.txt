@@ -1,0 +1,23 @@
+======== TGASW_Diagram_1.jpg
+Image Size                      : 599x400
+File Size                       : 21 kB
+======== TGASW_Diagram_2.jpg
+Image Size                      : 599x400
+File Size                       : 28 kB
+======== TGASW_Pascale.jpg
+Image Size                      : 3680x2456
+Create Date                     : 2014:11:08 18:38:42
+File Size                       : 4.7 MB
+======== TGASW_People_Group.jpg
+Image Size                      : 3680x2456
+Create Date                     : 2014:11:08 18:27:04
+File Size                       : 5.1 MB
+======== TGASW_People_Talking_1.mp4
+Image Size                      : 640x480
+Create Date                     : 2020:01:21 00:06:14
+File Size                       : 9.4 MB
+======== TGASW_People_Talking_2.mp4
+Image Size                      : 640x480
+Create Date                     : 2020:01:20 23:13:20
+File Size                       : 39 MB
+    6 image files read
