@@ -1,9 +1,6 @@
-baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "A Page Just About Schema"
 
-[permalinks]
-  posts = "/:filename/"
 
 [params]
 og_type = "website"
