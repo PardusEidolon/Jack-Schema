@@ -1,0 +1,21 @@
+{{ $jsonfile := .Get 0  }}
+{{ $eventdata := getJSON $jsonfile }}
+{{ with $eventdata }}
+<p>{{ .Event.title }}</p>
+{{ $featureId := .Event.feature }}
+{{ range .Photographs}}
+{{if eq .id $featureId }}
+<img class="d-block w-100" src="/img/{{.image}}" alt="{{.title}}">
+{{ end }}
+{{ end }}
+
+{{ range .Photographs }}
+<div class="card">
+    <div itemscope itemtype="http://schema.org/Photograph" class="card-body">
+        <h2 class="card-title"> {{.title}}</h2>
+        <p class="card-text"> {{.description}} </p>
+        <img class="d-block w-100" src="/img/{{.image}}" alt=" slide">
+    </div>
+</div>
+{{ end }}
+{{ end }}
