@@ -11,13 +11,15 @@
           "id": "5D81FE1D-1DB7-4EFA-B3BE-EE3D4DE1E04B678",
           "title": "Bets Concept Diagram 2",
           "description": "A bunch of stuff 2",
-          "image": "tgasw/TGASW_Diagram_2.jpg"
+          "image": "tgasw/TGASW_Diagram_2.jpg",
+          "active": true
       },
       {
           "id": "0337A0EA-3217-4997-A86A-58004BBB1FC9",
           "title": "Pascale Procrastinates",
           "description": "Doesn't want to work",
-          "image": "tgasw/TGASW_Pascale.jpg"
+          "image": "tgasw/TGASW_Pascale.jpg",
+          "active": false
       }
   ],
   "Videos": [],

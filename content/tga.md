@@ -11,11 +11,11 @@ draft: true
 ---
 {{< card_img >}}
 
-{{< carousel >}}
+{{< carousel "data/tgasw2014.json" "cid1">}}
 
 {{< card_Documents >}}
 
-{{< carousel-2 >}}
+{{< carousel "data/tgasw2015.json" "cid2">}}
 
 {{< card_vid >}}
 

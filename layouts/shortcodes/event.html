@@ -1,21 +1,26 @@
-{{ $jsonfile := .Get 0  }}
+{{ $jsonfile := "data/tgasw2014.json"  }}
+{{ $valueof := .Get "value" }}
+<p>{{.Get "question" }} - {{ $valueof }}</p>
 {{ $eventdata := getJSON $jsonfile }}
 {{ with $eventdata }}
-<p>{{ .Event.title }}</p>
+<h1 style="text-align: center;">{{ .Event.title }}</h1>
 {{ $featureId := .Event.feature }}
 {{ range .Photographs}}
 {{if eq .id $featureId }}
-<img class="d-block w-100" src="/img/{{.image}}" alt="{{.title}}">
-{{ end }}
-{{ end }}
-
-{{ range .Photographs }}
 <div class="card">
     <div itemscope itemtype="http://schema.org/Photograph" class="card-body">
         <h2 class="card-title"> {{.title}}</h2>
         <p class="card-text"> {{.description}} </p>
-        <img class="d-block w-100" src="/img/{{.image}}" alt=" slide">
+        <img class="d-block w-100" src="/img/{{.image}}" alt="{{.title}}">
     </div>
 </div>
+<hr>
+{{ end }}
+{{ end }}
+
+<h2 style="text-align: center; margin-bottom: 20px;"> Some More Images</h2>
+{{ range .Photographs }}
+
+<img src="/img/{{.image}}" alt="{{.title}}" class="img-thumbnail">
 {{ end }}
 {{ end }}
