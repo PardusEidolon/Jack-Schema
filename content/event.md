@@ -10,5 +10,4 @@ keywords: ["#TGA14", "#Community", "#Entrepenurship"]
 draft: true
 ---
 
-{{< event question="How old are you" value="22" datafile="data/tgasw2014.json" >}}
-
+{{< event "data/tgasw2014.json" >}} 

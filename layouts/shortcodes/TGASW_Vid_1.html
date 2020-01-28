@@ -1,7 +1,13 @@
+{{ $jsonfile := .Get 0 }}
+{{ $eventdata := getJSON $jsonfile }}
+{{ range $eventdata.Videos}}
 <div class="Videowrapper">
-  <video width="850" height="350" src="/img/tgasw/TGASW_People_Talking_1.mp4" controls>
+  <video width="850" height="350" src="/img/{{.video}}" controls>
   </video>
   <div class="alert" role="alert">
-    <h2>Tauranga Startup Video-1</h2>
+    <div class="alert-text">
+    <h2>{{.title}}</h2>
+    <p>{{.description}}</p>
+    </div>
   </div>
-</div>
+  {{ end }}
