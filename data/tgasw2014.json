@@ -2,52 +2,52 @@
     "Event": {
         "title": "Tauranga StartUp Weekend 2014",
         "description": "Venture Centres First Startup Weekend",
-        "feature": "04EE4338-E632-42C7-8F7D-B93939BF64AC"
-    },
-    "Photographs": [
-        {
-            "id": "0337A0EA-3217-4997-A86A-58004BBB1FC9",
-            "title": "Pascale Procrastinates",
-            "description": "Doesn't want to work",
-            "image": "tgasw/TGASW_Pascale.jpg",
-            "active": true
-        },
-        {
-            "id": "04EE4338-E632-42C7-8F7D-B93939BF64AC",
-            "title": "Tauranga group conversation",
-            "description": "People Interacting",
-            "image": "tgasw/TGASW_People_Group.jpg",
-            "active": false
-        }
-    ],
-    "Videos": [
-        {
-            "id": "A4973327-7BA4-48FB-A4D4-87C18900A220",
-            "title": "TGASW14 Introductions",
-            "description": "People chatting at the basestation ground floor",
-            "video": "tgasw/TGASW_People_Talking_1.mp4"
-        },
-        {
-            "id": "D7187AF2-2E44-4F02-B525-9E84C1B47C4B",
-            "title": "TGASW14 Introductions 2",
-            "description": "A welcoming at the basestation ground floor",
-            "video": "tgasw/TGASW_People_Talking_2.mp4"
-        }
-    ],
-    "Documents": [
-        {
-            "id": "DB29112E-C73C-498A-9947-BBE8BC1BF6F3",
-            "title": "Bets Concept Diagram",
-            "description": "A buch of stuff",
-            "image": "tgasw/TGASW_Diagram_1.jpg",
-            "active": true
-        },
-        {
-            "id": "5D81FE1D-1DB7-4EFA-B3BE-EE3D4DE1E04B678",
-            "title": "Bets Concept Diagram 2",
-            "description": "A bunch of stuff 2",
-            "image": "tgasw/TGASW_Diagram_2.jpg",
-            "active": false
-        }
-    ]
+        "feature": "04EE4338-E632-42C7-8F7D-B93939BF64AC",
+        "photographs": [
+            {
+                "id": "0337A0EA-3217-4997-A86A-58004BBB1FC9",
+                "title": "Pascale Procrastinates",
+                "description": "Doesn't want to work",
+                "image": "tgasw/TGASW_Pascale.jpg",
+                "active": true
+            },
+            {
+                "id": "04EE4338-E632-42C7-8F7D-B93939BF64AC",
+                "title": "Tauranga group conversation",
+                "description": "People Interacting",
+                "image": "tgasw/TGASW_People_Group.jpg",
+                "active": false
+            }
+        ],
+        "videos": [
+            {
+                "id": "A4973327-7BA4-48FB-A4D4-87C18900A220",
+                "title": "TGASW14 Introductions",
+                "description": "People chatting at the basestation ground floor",
+                "video": "tgasw/TGASW_People_Talking_1.mp4"
+            },
+            {
+                "id": "D7187AF2-2E44-4F02-B525-9E84C1B47C4B",
+                "title": "TGASW14 Introductions 2",
+                "description": "A welcoming at the basestation ground floor",
+                "video": "tgasw/TGASW_People_Talking_2.mp4"
+            }
+        ],
+        "documents": [
+            {
+                "id": "DB29112E-C73C-498A-9947-BBE8BC1BF6F3",
+                "title": "Bets Concept Diagram",
+                "description": "A buch of stuff",
+                "image": "tgasw/TGASW_Diagram_1.jpg",
+                "active": true
+            },
+            {
+                "id": "5D81FE1D-1DB7-4EFA-B3BE-EE3D4DE1E04B678",
+                "title": "Bets Concept Diagram 2",
+                "description": "A bunch of stuff 2",
+                "image": "tgasw/TGASW_Diagram_2.jpg",
+                "active": false
+            }
+        ]
+    }
 }

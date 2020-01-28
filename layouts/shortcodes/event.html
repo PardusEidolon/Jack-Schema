@@ -1,8 +1,9 @@
-{{ with .Get 0 | getJSON  }}
+{{ $Eventdata := .Get 0 | getJSON }}
+{{ with $Eventdata.Event }}
 
-<h1 style="text-align: center;">{{ .Event.title }}</h1>
-{{ $featureId := .Event.feature }}
-{{ range .Photographs }}
+<h1 style="text-align: center;">{{ .title }}</h1>
+{{ $featureId := .feature }}
+{{ range .photographs }}
   {{if eq .id $featureId }}
   <div class="card">
     <div itemscope itemtype="http://schema.org/Photograph" class="card-body">
@@ -17,7 +18,7 @@
 
 <h2 style="text-align: center; margin-bottom: 20px;"> Some More Images</h2>
 
-{{ range .Photographs | append .Documents }}
+{{ range .photographs | append .documents }}
   <img src="/img/{{.image}}" alt="{{.title}}" class="img-thumbnail">
 {{ end }}
 
